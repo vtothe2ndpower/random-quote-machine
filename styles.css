@@ -1,0 +1,49 @@
+#quote-box {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -100%);
+}
+
+h1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+
+#text {
+	font-style: italic;
+	line-height: 1.5;
+	padding-bottom: 5px;
+}
+
+#author {
+	font-style: initial;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#new-quote {
+	display: block;
+	width: 100%;
+	background-color: #e7e7e7;
+	color: black;
+	border-radius: 5px;
+}
+
+#new-quote:hover {
+	background-color: #c5c5c5; /* Green */
+	color: black;
+	transition: ease-in .15s;
+	cursor: pointer;
+}
+
+a #tweet-quote {
+	display: block;
+	margin: 0 auto;
+}
+
+i {
+	font-size: 3em;
+	color: #1da1f2;
+}
